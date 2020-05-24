@@ -119,6 +119,19 @@ body {
   padding: 9px 8px;  
 }
 
+.main-page-section .chatting-info .chatting-history .chating-text-box {
+  font-size: 12px;
+  border-bottom: 2px solid lightgray;
+}
+
+.main-page-section .chatting-info .chatting-history .chating-text-box:last-child {
+  border-bottom: 0;
+}
+
+.main-page-section .chatting-info .chatting-history .chating-text-box h5 {
+  font-weight: 700;
+}
+
 .main-page-section .chatting-info .last-chat {
   background: #F5F5F5;
   border: 1px solid #F5F5F5;
