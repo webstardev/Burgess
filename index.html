@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./assets/styles/styles.css" />
   </head>
   <body>
-
+    
     <nav id="bugress-nav" class="navbar navbar-expand-lg navbar-light bg-white">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-bugress" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -70,19 +70,19 @@
                 <h5>Tim Vickers</h5>
                 <p class="mb-2">
                   Ad aut consequatur blanditiis iure molestiae consequuntur consequatur cum. Velit non sed voluptas in ut incidunt impedit. Incidunt reiciendis fugiat iste occaecati hic dicta quia. Consequuntur dicta autem molestiae quis id illum.
-                </p>                
+                </p>
               </div>
               <div class="chating-text-box mb-2">
                 <h5>You</h5>
                 <p class="mb-2">
                   Ad aut consequatur blanditiis iure molestiae consequuntur consequatur cum. Velit non sed voluptas in ut incidunt impedit. Incidunt reiciendis fugiat iste occaecati hic dicta quia. Consequuntur dicta autem molestiae quis id illum.
-                </p>                
+                </p>
               </div>
               <div class="chating-text-box mb-2">
                 <h5>You</h5>
                 <p class="mb-2">
                   Ad aut consequatur blanditiis iure molestiae consequuntur consequatur cum. Velit non sed voluptas in ut incidunt impedit. Incidunt reiciendis fugiat iste occaecati hic dicta quia. Consequuntur dicta autem molestiae quis id illum.
-                </p>                
+                </p>
               </div>
             </div>
             <textarea class="last-chat mt-1"></textarea>
@@ -121,6 +121,75 @@
           <h3 class="description">82.5m (270.6ft)</h3>
           <h3 class="description">2013 (refitted 2018), Abeking & Rasmussen, Germany</h3>
           <div class="tap-start-div">
+            
+            <div id="secret-accordion">
+              <div class="title" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false">
+                SECRET
+              </div>              
+              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#secret-accordion">
+                <div id="sun-deck">
+                  <div class="item-one collapsed" data-toggle="collapse" data-target="#collpseOne-One" aria-expanded="false">
+                    SUN DECK
+                  </div>
+                  <div id="collpseOne-One" class="collapse item-one-child">
+                    <div>SDK - Aft Deck Seating</div>
+                    <div>SDK - Aft Deck Stern</div>
+                    <div>SDK - Deck Stairs [stbd]</div>
+                    <div>SDK - Fore Deck Jacuzzi</div>
+                    <div>SDK - Mid Deck</div>                    
+                  </div>
+                </div>
+                <div id="brigde-dec">
+                  <div class="item-one collapsed" data-toggle="collapse" data-target="#collpseOne-Two" aria-expanded="false">
+                    BRIDGE DECK
+                  </div>
+                  <div id="collpseOne-Two" class="collapse item-one-child">
+                    <div>SDK - Aft Deck Seating</div>
+                    <div>SDK - Aft Deck Stern</div>
+                    <div>SDK - Deck Stairs [stbd]</div>
+                    <div>SDK - Fore Deck Jacuzzi</div>
+                    <div>SDK - Mid Deck</div>                    
+                  </div>                  
+                </div>
+                <div id="upper-deck">
+                  <div class="item-one collapsed" data-toggle="collapse" data-target="#collpseOne-Three" aria-expanded="false">
+                    UPPER DECK
+                  </div>
+                  <div id="collpseOne-Three" class="collapse item-one-child">
+                    <div>SDK - Aft Deck Seating</div>
+                    <div>SDK - Aft Deck Stern</div>
+                    <div>SDK - Deck Stairs [stbd]</div>
+                    <div>SDK - Fore Deck Jacuzzi</div>
+                    <div>SDK - Mid Deck</div>                    
+                  </div>                                    
+                </div>
+                <div id="main-deck">
+                  <div class="item-one collapsed" data-toggle="collapse" data-target="#collpseOne-Four" aria-expanded="false">
+                    MAIN DECK
+                  </div>
+                  <div id="collpseOne-Four" class="collapse item-one-child">
+                    <div>SDK - Aft Deck Seating</div>
+                    <div>SDK - Aft Deck Stern</div>
+                    <div>SDK - Deck Stairs [stbd]</div>
+                    <div>SDK - Fore Deck Jacuzzi</div>
+                    <div>SDK - Mid Deck</div>                    
+                  </div>                                    
+                </div>
+                <div id="lower-deck">                  
+                  <div class="item-one collapsed" data-toggle="collapse" data-target="#collpseOne-Five" aria-expanded="false">
+                    LOWER DECK
+                  </div>
+                  <div id="collpseOne-Five" class="collapse item-one-child">
+                    <div>SDK - Aft Deck Seating</div>
+                    <div>SDK - Aft Deck Stern</div>
+                    <div>SDK - Deck Stairs [stbd]</div>
+                    <div>SDK - Fore Deck Jacuzzi</div>
+                    <div>SDK - Mid Deck</div>                    
+                  </div>
+                </div>
+              </div>              
+            </div>            
+            
             <h2>Tap <span style="font-weight: 600;">‘Start’</span> to link up with your<br> BURGESS sales broker</h2>            
           </div>
           <div class="btn-container">
@@ -133,5 +202,11 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script>
+      $('.collapse').collapse({
+        toggle: false
+      })
+    </script>
   </body>
 </html>
