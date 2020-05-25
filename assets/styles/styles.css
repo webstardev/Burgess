@@ -362,6 +362,15 @@ body {
   cursor: pointer;
 }
 
+#secret-accordion .title {
+  display: flex;
+  justify-content: space-between;
+}
+
+#secret-accordion .title svg {
+  width: 18px;
+}
+
 #secret-accordion .item-one-child {
   padding: 0 15px;
   background: #4e617b;
